@@ -1,0 +1,261 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background: #f9fcfe;
+    color: #291f1a;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+#nawigacja {
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+}
+
+#nawigacja ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    padding-right: 40px;
+}
+
+#nawigacja a {
+    color: #1ac056;
+    text-decoration: none;
+}
+
+#nawigacja ul {
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#nawigacja ul li a {
+    transition: all 0.4s;
+}
+
+#nawigacja ul li a:hover {
+    color: #291f1a;
+}
+
+#header {
+    height: 90vh;
+    position: relative;
+    background: url('../img/header-background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#header .inner {
+    position: absolute;
+    z-index: 0;
+    top: 32%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#header .inner h2 {
+    font-size: 34px;
+    color: #fff;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#header .inner h1 {
+    color: #fff;
+    font-size: 140px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+
+#header .inner h1 span {
+    color: #1ac056;
+    font-weight: 400;
+    
+}
+#omnie {
+    height: 80vh;
+}
+
+.top {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+/*    font-weight: lighter;*/
+}
+.top span {
+    color: #1ac056;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    
+    
+}
+
+
+#omnie figure,
+#omnie p {
+    float: left;
+    width: 46%;
+    margin: 0;
+
+    
+}
+
+figure img {
+    border: solid #fff 10px;
+    width: 45%;
+    border-radius: 10px;
+    margin-left: 40%;
+    overflow: visible;
+}
+
+#umiejetnosci {
+    height: 80vh;
+    background-color: #FFF;
+}
+#umiejetnosci p {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#icons {
+    margin-left: 28%;
+    
+}
+.icons {
+    display: inline-block;
+    width: 75px;
+    padding: 30px;
+}
+#portfolio {
+    height: 80vh;
+    
+}
+
+#transform {
+    display: inline-block;
+    width: 100%;
+    margin-left: 13%;
+}
+.proba:empty {
+    display: inline-block;
+    height: 310px;
+    width: 310px;
+    clear: both;
+    margin:0;
+    position: absolute;
+  
+    
+}
+.proba1 {
+    background: url(../img/portfolio1.jpg);
+    
+     
+}
+.proba2 {
+    background: url(../img/portfolio2.jpg);
+    left: 38.53%;
+}
+.proba3 {
+    background: url(../img/portfolio4.jpg);
+    left: 64.05%;
+}
+.txt {
+    text-align: center;
+    color:#FFF;
+    background: rgba(33, 59, 80, 0.76);
+    
+    padding: 5px;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    clear: both;
+    margin:0;
+    position: relative;
+/*    z-index: 1;*/
+    opacity: 0;
+    transition: all 0.4s linear;
+    
+    
+}
+
+.ramka {
+    border:solid 2px #FFF;
+    display: inline-block;
+    height: 297px;
+    width: 297px;
+    clear: both;
+    margin:0;
+    
+}
+.txt1 {
+    
+}
+txt2 {
+    left: 38%;
+}
+txt3 {
+    left: 63%;
+}
+.txt:hover {
+    opacity: 1;
+    
+}
+#contact {
+    height: 80vh;
+    background-color: #213b50;
+    color:#FFF; 
+    
+}
+/*
+.left,
+.right {
+    display: inline-block;
+    width: 50%;
+}
+*/
+
+.contact span {
+    color:#1ac056;
+    font-family: 'Roboto', sans-serif;
+}
+.contact h2 {
+    font-size: 35px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.left {
+    width: 50%;
+    float: left;
+}
+form {
+    display: inline-block;
+    float: right;
+    width: 50%;
+}
+
+form input,
+form textarea {
+    background-color: #2B4A64; 
+    border: 1px solid transparent; 
+    width: 75%; 
+    padding: 15px; 
+    color: #FFF; /* zmienia kolor wpisywanego tekstu */
+    margin: 5px 0; /* odsuwa elementy gora-dol o 5px */
+}
+form input[type="submit"] {
+    background-color: #1ac056;
+    color: #FFF;
+    width: 20%;
+    font-weight: 600;
+    border: solid 1px #FFF;
+    float: right;
+}
