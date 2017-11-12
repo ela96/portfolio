@@ -240,6 +240,16 @@ form {
     display: inline-block;
     float: right;
     width: 50%;
+    margin-top: 5%;
+}
+form input[type="submit"] {
+/*    margin-top: 80px;*/
+    background-color: #1ac056;
+    color: #FFF;
+    width: 20%;
+    font-weight: 600;
+    border: solid 1px #FFF;
+   
 }
 
 form input,
@@ -248,14 +258,34 @@ form textarea {
     border: 1px solid transparent; 
     width: 75%; 
     padding: 15px; 
-    color: #FFF; /* zmienia kolor wpisywanego tekstu */
-    margin: 5px 0; /* odsuwa elementy gora-dol o 5px */
+    color: #FFF; 
+    margin: 5px 0; 
 }
 form input[type="submit"] {
-    background-color: #1ac056;
+    margin-left: 60%;
+}
+
+.lclass {
+    margin-left: 15%;
+    
+}
+adress a {
     color: #FFF;
-    width: 20%;
-    font-weight: 600;
-    border: solid 1px #FFF;
-    float: right;
+    text-decoration: none;
+}
+adress span {
+    color:#1ac056;
+}
+#footer {
+    background-color: #12202c;
+    color: #FFF;
+}
+#footer p {
+    margin:0;
+    margin-left: 5%;
+}
+.social a{
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px;
 }

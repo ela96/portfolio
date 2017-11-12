@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -16,10 +17,10 @@
     <nav id="nawigacja">
 
         <ul>
-            <li><a href=""> o mnie</a></li>
-            <li><a href="">umiejętności</a></li>
-            <li><a href="">portfolio</a></li>
-            <li><a href="">kontakt</a></li>
+            <li><a href="#omnie"> o mnie</a></li>
+            <li><a href="#umiejetnosci">umiejętności</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">kontakt</a></li>
         </ul>
     </nav>
 
@@ -104,16 +105,22 @@
                 <div class="lclass">
                     <h2>Jan <span>Nowak</span></h2>
                     <adress>
-                        <p>ul. Mostowa 6/13<br />31-061 Kraków<br /></p>tel:606 74 57 59<br />email:example@example.pl
+                        <p>ul. Mostowa 6/13<br />31-061 Kraków<br /></p>tel:606 74 57 59<br /><a href="mailto:example@example.pl">email: <span>example@example.pl</span></a>
                     </adress>
+                    <div class="social">
+                    <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+                    <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+                    <a href="https://www.google.com" class="fa fa-google"></a>
+                    <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+                    </div>
                 </div>
             </div>
             <div class="right">
-                <form action="">
-                    <input type="text">
-                    <input type="text">
-                    <textarea name="" id="" cols="30" rows="5"></textarea>
-                    <input type="submit" value="WYŚLIJ">
+                <form action="https://formspree.io/kramarskae@gmail.com" method="POST">
+                    <input type="text" placeholder="Imię i nazwisko">
+                    <input type="email" placeholder="E-mail">
+                    <textarea name="" id="" cols="30" rows="5" placeholder="Treść wiadomości: "></textarea>
+                    <input type="submit" value="WYŚLIJ"  >
                 </form>
             </div>
         </div>
@@ -121,6 +128,9 @@
 
 
     <footer id="footer">
+    <p> Copyright &copy; 2017 Jan Nowak </p>
+    
+
 
     </footer>
 
