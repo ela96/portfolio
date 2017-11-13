@@ -80,15 +80,14 @@ body {
     
 }
 #omnie {
-    height: 80vh;
+    box-sizing: border-box;
+    padding: 5%;
 }
 
 .top {
     font-size: 25px;
     text-align: center;
-    margin-top: 60px;
-    margin-bottom: 40px;
-/*    font-weight: lighter;*/
+
 }
 .top span {
     color: #1ac056;
@@ -104,8 +103,6 @@ body {
     float: left;
     width: 46%;
     margin: 0;
-
-    
 }
 
 figure img {
@@ -115,10 +112,14 @@ figure img {
     margin-left: 40%;
     overflow: visible;
 }
+.clear {
+    clear: both;
+}
 
 #umiejetnosci {
-    height: 80vh;
+    box-sizing: border-box;
     background-color: #FFF;
+    padding: 5%;
 }
 #umiejetnosci p {
     text-align: center;
@@ -136,114 +137,104 @@ figure img {
     padding: 30px;
 }
 #portfolio {
-    height: 80vh;
-    
+    box-sizing: border-box;
+    padding: 5%;
 }
 
 #transform {
     display: inline-block;
     width: 100%;
-    margin-left: 13%;
+    box-sizing: border-box;
+
 }
-.proba:empty {
+.proba {
     display: inline-block;
-    height: 310px;
-    width: 310px;
-    clear: both;
+    height: 350px;
+    width: 33.33%;
     margin:0;
-    position: absolute;
+    position: relative;
+    float: left;
+    
+    
+    
   
     
 }
 .proba1 {
-    background: url(../img/portfolio1.jpg);
+    background: url(../img/portfolio1.jpg) no-repeat;
     
      
 }
 .proba2 {
-    background: url(../img/portfolio2.jpg);
-    left: 38.53%;
+    background: url(../img/portfolio2.jpg) no-repeat;
+
 }
 .proba3 {
-    background: url(../img/portfolio4.jpg);
-    left: 64.05%;
+    background: url(../img/portfolio4.jpg) no-repeat;
+
 }
 .txt {
     text-align: center;
     color:#FFF;
     background: rgba(33, 59, 80, 0.76);
-    
     padding: 5px;
-    display: inline-block;
-    height: 300px;
-    width: 300px;
-    clear: both;
-    margin:0;
-    position: relative;
-/*    z-index: 1;*/
+    width: 100%;
+    height: 100%;
     opacity: 0;
-    transition: all 0.4s linear;
+    position: relative;
+    box-sizing: border-box;
+
+}
+.contentt {
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
     
     
 }
 
 .ramka {
-    border:solid 2px #FFF;
-    display: inline-block;
-    height: 297px;
-    width: 297px;
-    clear: both;
-    margin:0;
-    
+    border: solid 2px #FFF;
+    height: 100%;
+    padding: 5px;
+    box-sizing: border-box;
 }
-.txt1 {
-    
-}
-txt2 {
-    left: 38%;
-}
-txt3 {
-    left: 63%;
-}
+
 .txt:hover {
     opacity: 1;
     
 }
 #contact {
-    height: 80vh;
+    width: 100%;
+    box-sizing: border-box;
     background-color: #213b50;
     color:#FFF; 
+    padding: 5%;
     
 }
-/*
-.left,
-.right {
-    display: inline-block;
-    width: 50%;
-}
-*/
 
-.contact span {
+#contact span {
     color:#1ac056;
     font-family: 'Roboto', sans-serif;
 }
-.contact h2 {
+#contact h2 {
     font-size: 35px;
-    margin-top: 60px;
-    margin-bottom: 40px;
+    margin-top: 0px;
+    margin-bottom: 98px;
 }
-.left {
+.left,
+.right {
     width: 50%;
     float: left;
+    display: inline-block;
 }
 form {
     display: inline-block;
     float: right;
-    width: 50%;
     margin-top: 5%;
 }
 form input[type="submit"] {
-/*    margin-top: 80px;*/
+
     background-color: #1ac056;
     color: #FFF;
     width: 20%;
@@ -272,20 +263,27 @@ form input[type="submit"] {
 adress a {
     color: #FFF;
     text-decoration: none;
+    
 }
 adress span {
     color:#1ac056;
 }
 #footer {
+    display: inline-block;
+    width: 100%;
     background-color: #12202c;
     color: #FFF;
 }
 #footer p {
+    box-sizing: border-box;
+    padding-left: 5%;
     margin:0;
-    margin-left: 5%;
 }
 .social a{
     color: #FFF;
     text-decoration: none;
     padding: 10px;
+    border: solid #FFF 1px;
+    margin-top: 35px;
+    margin-right: 29px;
 }
